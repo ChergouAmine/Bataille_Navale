@@ -1,11 +1,79 @@
-/* CSS files add styling rules to your content */
-
+/*
+@keyframes rainbow {
+    0% { color: red; background-color: green }
+   14% { color: orange; background-color: blue }
+   28% { color: yellow; background-color: indigo }
+   42% { color: green; background-color: violet }
+   56% { color: blue; background-color: red }
+   70% { color: indigo; background-color: orange }
+   84% { color: violet; background-color: yellow }
+  100% { color: red; background-color: green }
+}
+*/
 body {
-  font-family: helvetica, arial, sans-serif;
-  margin: 2em;
+  animation: rainbow 5s infinite;
 }
 
-h1 {
-  font-style: italic;
-  color: #373fff;
+.positioned {
+  position:absolute;
+  top:0px;
+  right:0px;
+  /*border-radius:50%;*/
+}
+
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+
+nav{
+  list-style: none;
+}
+
+ul{
+  list-style:inherit; //pour hériter de nav
+}
+
+.nav{
+  display:inline;
+}
+
+
+h2 { 
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 5vh;
+  border-bottom:1px solid black;
+}
+
+h1{ 
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 5vh;
+}
+
+tr:nth-child(odd){
+  background-color:skyblue;
+}
+
+tr:nth-child(even){
+  background-color:yellow;
+}
+
+article h2{
+  font-size:15px;
+}
+
+article h2::first-letter{
+  font-size:20px;
 }
