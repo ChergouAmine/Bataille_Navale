@@ -1,79 +1,30 @@
-/*
-@keyframes rainbow {
-    0% { color: red; background-color: green }
-   14% { color: orange; background-color: blue }
-   28% { color: yellow; background-color: indigo }
-   42% { color: green; background-color: violet }
-   56% { color: blue; background-color: red }
-   70% { color: indigo; background-color: orange }
-   84% { color: violet; background-color: yellow }
-  100% { color: red; background-color: green }
-}
-*/
 body {
-  animation: rainbow 5s infinite;
+    margin: auto;
+    max-width: 1000px;
 }
 
-.positioned {
-  position:absolute;
-  top:0px;
-  right:0px;
-  /*border-radius:50%;*/
+#board {
+	position:relative;
+	margin:0 auto 2em auto;
+	width:500px;
+	height:500px;
 }
 
-
-a:link {
-    color: black;
-    text-decoration: none;
-}
-a:visited {
-    color: black;
-    text-decoration: none;
-}
-a:hover {
-    color: red;
-    text-decoration: underline;
+#board div {
+	position:absolute;   
+	box-sizing: border-box;/*les délimitation sont plus agréables à l'oeil*/    
+	background: #f6f8f9;
+	border: 1px solid #ddd;
+	width:50px;
+	height:50px;
 }
 
-
-nav{
-  list-style: none;
+h1 {
+    font-size: 50px;
 }
 
-ul{
-  list-style:inherit; //pour hériter de nav
-}
-
-.nav{
-  display:inline;
-}
-
-
-h2 { 
-  text-align: center;
-  font-family: sans-serif;
-  font-size: 5vh;
-  border-bottom:1px solid black;
-}
-
-h1{ 
-  text-align: center;
-  font-family: sans-serif;
-  font-size: 5vh;
-}
-
-tr:nth-child(odd){
-  background-color:skyblue;
-}
-
-tr:nth-child(even){
-  background-color:yellow;
-}
-
-article h2{
-  font-size:15px;
-}
-
-article h2::first-letter{
-  font-size:20px;
+p {
+    font-size: 30px;
+    line-height: 25px;
+	  margin-bottom:1em;/*c'est just pour avoir une marge en bas de la page*/
 }

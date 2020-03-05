@@ -1,15 +1,37 @@
-# Applications Web et Sécurité – Get started!
+Welcome to Glitch
+=================
 
-This is your first project for [Applications Web et Sécurité](http://defeo.lu/aws). *Remix it!*
+Click `Show` in the header to see your app live. Updates to your code will instantly deploy and update live.
 
-## HTML
+**Glitch** is the friendly community where you'll build the app of your dreams. Glitch lets you instantly create, remix, edit, and host an app, bot or site, and you can invite collaborators or helpers to simultaneously edit code with you.
 
-Edit `index.html` according to the given instructions: add `<section>`s, `<ul>`s, etc. Preview (click on the *"Show"* button on top). Then validate using the [W3C Validator](https://validator.w3.org/).
+Find out more [about Glitch](https://glitch.com/about).
 
-## CSS
 
-Add a stylesheet, then style the page according to the given instructions. Validate using the [W3C CSS Validator](http://jigsaw.w3.org/css-validator/).
+Your Project
+------------
 
-## Forms
+### ← README.md
 
-Add a form for searching on Google.
+That's this file, where you can tell people what your cool website does and how you built it.
+
+### ← index.html
+
+Where you'll write the content of your website. 
+
+### ← style.css
+
+CSS files add styling rules to your content.
+
+### ← script.js
+
+If you're feeling fancy you can add interactivity to your site with JavaScript.
+
+### ← assets
+
+Drag in `assets`, like images or music, to add them to your project
+
+Made by [Glitch](https://glitch.com/)
+-------------------
+
+\ ゜o゜)ノ
