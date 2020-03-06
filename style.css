@@ -5,18 +5,46 @@ body {
 
 #board {
 	position:relative;
-	margin:0 auto 2em auto;
-	width:500px;
-	height:500px;
+	margin:1 auto 2em 0;
+	width:400px;
+	height:400px;
 }
 
-#board div {
+#board2 {
+	position:relative;
+	margin-right:0;
+	width:400px;
+	height:400px;
+}
+
+
+#board div, #board2 div {
 	position:absolute;   
 	box-sizing: border-box;/*les délimitation sont plus agréables à l'oeil*/    
 	background: #f6f8f9;
 	border: 1px solid #ddd;
-	width:50px;
-	height:50px;
+	width:40px;
+	height:40px;
+}
+
+#board td, #board2 td {
+	box-sizing: border-box;/*les délimitation sont plus agréables à l'oeil*/    
+	background: #f6f8f9;
+	border: 1px solid #ddd;
+	width:40px;
+	height:40px;
+}
+
+#board td.manque, #board2 td.manque {
+  background: lightgrey;
+}
+
+#board td.touche, #board2 td.touche {
+  background: skyblue;
+}
+
+#board td.coule, #board2 td.coule {
+  background: crimson;
 }
 
 h1 {
@@ -26,5 +54,10 @@ h1 {
 p {
     font-size: 30px;
     line-height: 25px;
-	  margin-bottom:1em;/*c'est just pour avoir une marge en bas de la page*/
+    margin-bottom:1em;
+}
+
+.table{
+  display:inline-block;
+  vertical-align:top;
 }
