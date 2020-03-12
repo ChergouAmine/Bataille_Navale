@@ -6,17 +6,20 @@ body {
 #board {
 	position:relative;
 	margin:1 auto 2em 0;
-	width:400px;
+	width:40%;
 	height:400px;
 }
 
 #board2 {
 	position:relative;
-	margin-right:0;
-	width:400px;
+	margin-left:30px;
+	width:40%;
 	height:400px;
 }
 
+#tableaux div{
+  display:inline-block;
+}
 
 #board div, #board2 div {
 	position:absolute;   
@@ -31,8 +34,13 @@ body {
 	box-sizing: border-box;/*les délimitation sont plus agréables à l'oeil*/    
 	background: #f6f8f9;
 	border: 1px solid #ddd;
-	width:40px;
-	height:40px;
+	width:10vh;
+}
+
+#board td:after, #board2 td:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
 }
 
 #board td.manque, #board2 td.manque {
@@ -57,7 +65,7 @@ p {
     margin-bottom:1em;
 }
 
-.table{
+/*.table{
   display:inline-block;
   vertical-align:top;
-}
+}*/
